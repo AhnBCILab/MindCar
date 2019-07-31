@@ -26,7 +26,7 @@ public class SpeedobarConverter1 : MonoBehaviour
         // float ang = Mathf.Lerp(minAngle, maxAngle, Mathf.InverseLerp(min, max, speed));
         float convertedSpeed = Mathf.Lerp(maxSpeed, minSpeed, Mathf.InverseLerp(min, max, speed));
 
-        UnityEngine.Debug.Log(convertedSpeed + "입니다.");
+        //UnityEngine.Debug.Log(convertedSpeed + "입니다.");
 
         if (convertedSpeed < Speedobar.transform.localScale.x) // speedobar의 길이가 짧아짐
         {

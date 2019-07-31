@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.25
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 984039097}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.25}
+  m_IndirectSpecularColor: {r: 0.19646549, g: 0.21992368, b: 0.25422552, a: 0.25}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3164,7 +3164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.009433985, g: 0.00048949925, b: 0.00048949925, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -18153,7 +18153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.066037714, g: 0.043298315, b: 0.043298315, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -20030,6 +20030,8 @@ MonoBehaviour:
   FinishText: {fileID: 234203906}
   FinishPanel: {fileID: 155847819}
   Tirgger_1p: {fileID: 797164324}
+  NameText1: {fileID: 664975368}
+  NameText2: {fileID: 98865438}
 --- !u!65 &725561108
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22046,6 +22048,8 @@ MonoBehaviour:
   FinishText: {fileID: 68822427}
   FinishPanel: {fileID: 155847819}
   Tirgger_2p: {fileID: 725561106}
+  NameText1: {fileID: 664975368}
+  NameText2: {fileID: 98865438}
 --- !u!65 &797164326
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22812,7 +22816,7 @@ GameObject:
   - component: {fileID: 834468647}
   - component: {fileID: 834468646}
   m_Layer: 0
-  m_Name: CarController
+  m_Name: Car1Active
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22827,10 +22831,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 834468645}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f4f57903b5664d8b862ce5d418c5005, type: 3}
+  m_Script: {fileID: 11500000, guid: 29d86e7f87dcb98458202a4dc44bd267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarControl1: {fileID: 1062402222}
+  otherobj: {fileID: 1062402222}
 --- !u!4 &834468647
 Transform:
   m_ObjectHideFlags: 0
@@ -25686,7 +25690,7 @@ GameObject:
   - component: {fileID: 940564483}
   - component: {fileID: 940564484}
   m_Layer: 0
-  m_Name: CarController2
+  m_Name: Car2Active
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25715,10 +25719,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 940564482}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5c1c9a31719f43499fe3403b484da69, type: 3}
+  m_Script: {fileID: 11500000, guid: 4970f20bd877fd241a59e03f87148fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarControl2: {fileID: 1096497738}
+  otherobj: {fileID: 1096497738}
 --- !u!1001 &940567494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35383,7 +35387,7 @@ GameObject:
   - component: {fileID: 1323805456}
   - component: {fileID: 1323805457}
   m_Layer: 0
-  m_Name: CarControllerde
+  m_Name: Car1Disactive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35412,10 +35416,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1323805455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f79f2414aea8119468c2b124ff16abef, type: 3}
+  m_Script: {fileID: 11500000, guid: f2fe64b70bb95fe499a65346395c2436, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarControl1: {fileID: 1062402222}
+  otherobj: {fileID: 1062402222}
 --- !u!1001 &1324737003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40965,7 +40969,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7, y: -299}
+  m_AnchoredPosition: {x: -40.8, y: -299.7}
   m_SizeDelta: {x: 17, y: 17.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1577325275
@@ -42544,7 +42548,7 @@ GameObject:
   - component: {fileID: 1651753554}
   - component: {fileID: 1651753555}
   m_Layer: 0
-  m_Name: CarControllerde2
+  m_Name: Car2Disactive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42573,10 +42577,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1651753553}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43c44240f64fcae458705d2e860e11a5, type: 3}
+  m_Script: {fileID: 11500000, guid: f23bd059f782f4e4dac5b382d7432be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarControl2: {fileID: 1096497738}
+  otherobj: {fileID: 1096497738}
 --- !u!1001 &1657917104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45774,7 +45778,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: -298}
+  m_AnchoredPosition: {x: -27.800016, y: -298.7}
   m_SizeDelta: {x: 17, y: 17.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1784848123

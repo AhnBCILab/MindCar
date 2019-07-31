@@ -18,7 +18,10 @@ public class LapCompleteTrigger_com : MonoBehaviour {
     public GameObject FinishPanel;
     public GameObject Tirgger_2p;
 
-    string savePath = @"U:\ov\time\record_p1.txt";
+    public Text NameText1;
+    public Text NameText2;
+
+    string savePath = @"U:\ov\time\Comp_p1.txt";
     string textValue; 
 
 
@@ -51,6 +54,10 @@ public class LapCompleteTrigger_com : MonoBehaviour {
             if (LapCompleteTrigger2_com.Triggered2p == true)
             {
                 FinishPanel.SetActive(true);
+                NameText1.GetComponent<Text>().enabled = false;
+                NameText2.GetComponent<Text>().enabled = false;
+
+
                 Debug.Log("Competition is finished!");
                 theClient.PutOpenvibeButton(0);  // theClient.Press(buttonIndexNum);
             }

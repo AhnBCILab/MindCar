@@ -59,6 +59,10 @@
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\CameraStatic.cs" />
      <Compile Include="Assets\Scripts\Competition_code\CameraScript_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\CarControlActive_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\CarControlActive2_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\CarControlDisactive_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\CarControlDisactive2_com.cs" />
      <Compile Include="Assets\Scripts\Competition_code\Countdown_com.cs" />
      <Compile Include="Assets\Scripts\Competition_code\DistanceUIManager.cs" />
      <Compile Include="Assets\Scripts\Competition_code\FinishPanelManager_com.cs" />
@@ -133,19 +137,19 @@
      <None Include="Assets\Fonts\Documentation\JazzCreateAltKeys_BubbleFont.txt" />
      <None Include="Assets\Ornamental Flower Set\Shaders\Transparent-BumpSpecNoCull.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/user/Desktop/MindCar2.0_Connected_Handle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/MindCar_ver2/MindCar2.0_Connected_Handle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/user/Desktop/MindCar2.0_Connected_Handle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/MindCar_ver2/MindCar2.0_Connected_Handle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/user/Desktop/MindCar2.0_Connected_Handle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/MindCar_ver2/MindCar2.0_Connected_Handle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/user/Desktop/MindCar2.0_Connected_Handle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/MindCar_ver2/MindCar2.0_Connected_Handle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/user/Desktop/MindCar2.0_Connected_Handle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/MindCar_ver2/MindCar2.0_Connected_Handle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -349,13 +353,13 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/user/Desktop/MindCar2.0_Connected_Handle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/MindCar_ver2/MindCar2.0_Connected_Handle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/user/Desktop/MindCar2.0_Connected_Handle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/MindCar_ver2/MindCar2.0_Connected_Handle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/user/Desktop/MindCar2.0_Connected_Handle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/MindCar_ver2/MindCar2.0_Connected_Handle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0_StartView.unity
+    guid: 90edb9672990d43458c979278c27e73e
+  - enabled: 1
+    path: Assets/Scenes/1_Mode.unity
+    guid: 5c36f3393dda44d8b82ed7a9b4528f0f
+  - enabled: 1
+    path: Assets/Scenes/2_1_Individual.unity
+    guid: d043f9180a33445ff9a48de9c028fa0f
+  - enabled: 1
+    path: Assets/Scenes/2_2_Competition.unity
+    guid: 0bfc9c272d70940939936fe47f6aa636
+  - enabled: 1
+    path: Assets/Scenes/3_1_Training.unity
+    guid: 8a2890798bea955449897f32da7d58b5
+  - enabled: 1
+    path: Assets/Scenes/default.unity
+    guid: 3f24be72c50bb447eb15e7165b442d8d
+  - enabled: 1
+    path: Assets/Scenes/autoDefault.unity
+    guid: f82b4ef0ce2d6ec41801cca0e671309f
+  - enabled: 1
+    path: Assets/Scenes/competition.unity
+    guid: 63b9c23bb80d44ca9abc26e294971916
+  - enabled: 0
+    path: 
+    guid: 0c4d85b1cd4fcf748acfca2191271c40

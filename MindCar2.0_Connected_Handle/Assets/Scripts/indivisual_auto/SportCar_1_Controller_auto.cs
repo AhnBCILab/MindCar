@@ -166,7 +166,7 @@ public class SportCar_1_Controller_auto : MonoBehaviour {
             default: break;
         }
 
-        CarDefault.volume = 0.5f + (speed / 10f);
+        CarDefault.volume = 0.2f + (speed / 6f);
 
 
         SpeedobarConverter_auto.ShowSpeed(speed, 0, 10);

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/competition.unity
+- path: Assets/Scenes/0_StartView.unity
   isLoaded: 1
   isActive: 1

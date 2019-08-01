@@ -8547,7 +8547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 235.4, y: -140.16}
+  m_AnchoredPosition: {x: 235.4, y: -129}
   m_SizeDelta: {x: 314.78, y: 134.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &397414279
@@ -26465,7 +26465,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 18e066b527602404f80514a7cf62dba4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 29a4ac68bd0b44341ad08a68968e6336, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -30087,7 +30087,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -197.45, y: -145.83}
+  m_AnchoredPosition: {x: -197.45, y: -134}
   m_SizeDelta: {x: 304.87, y: 153.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1277279388
@@ -37759,7 +37759,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000012865, y: 269}
+  m_AnchoredPosition: {x: 0.000012865, y: 242}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1609148892
@@ -42728,7 +42728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -432, y: -278}
+  m_AnchoredPosition: {x: -432, y: -253}
   m_SizeDelta: {x: 152.2, y: 46.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1786866091

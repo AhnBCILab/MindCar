@@ -9,13 +9,16 @@
 
 # Screen Shot
 **1. Start scene**
+
 <img width="625" alt="스크린샷 2019-07-25 오후 1 12 48 2" src="https://user-images.githubusercontent.com/36878519/62444527-b02a8780-b798-11e9-8064-e93d0dbceb7e.png">
 
 **2. Individual mode**
+
 <img width="625" alt="스크린샷 2019-07-25 오후 1 12 48 2" src="https://user-images.githubusercontent.com/36878519/62444439-70fc3680-b798-11e9-92d4-e654c1de8897.JPG">
 >: including mini map, speedo bar, lap time, and lap 
 
 **3. Competition mode**
+
 <img width="625" alt="스크린샷 2019-07-25 오후 1 12 48 2" src="https://user-images.githubusercontent.com/36878519/62444483-98eb9a00-b798-11e9-9f20-a9c63fd3786d.JPG">
 >: including mini map, speedo bar, distance map, lap time, and lap 
 

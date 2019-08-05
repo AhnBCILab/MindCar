@@ -5,8 +5,7 @@
 
 
 # Objectives
-researchers studying brain such as biofeedback, neurofeedback, and hyper-scanning can easily utilize this application for their study and save times. 
-
+* researchers studying brain such as biofeedback, neurofeedback, and hyper-scanning can easily utilize this application for their study and save times.  
 
 # Screen Shot
 
